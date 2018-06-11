@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1 class="title">Gerador de widgets de jogos da Copa 🇧🇷 🇧🇷 🇧🇷 🏆 ⚽</h1>
+      <h1 class="title">Gerador de widgets de jogos da Copa 🇧🇷 🇧🇷 🇧🇷 🏆 ⚽ </h1>
       <div class="columns">
         <div class="column is-one-third">
           <div class="card">
@@ -106,7 +106,7 @@ export default {
 }
 
 .container {
-  padding-top: 10%;
+  padding-top: 16px;
 }
 
 body {

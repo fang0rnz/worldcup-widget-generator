@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="widget-container">
     <div class="field">
       <div class="rendered-widget" v-html="snippet"></div>
     </div>
@@ -17,11 +17,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.widget-container {
+  height: 592px;
+}
 .rendered-widget {
-  height: 582.55px;
+  height: 592px;
   background-color: white;
 }
 iframe#cup-matches {
-  height: 582.55px !important;
+  height: 592px !important;
 }
 </style>

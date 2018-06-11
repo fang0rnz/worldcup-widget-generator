@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="widget-container">
     <div class="field">
       <div class="rendered-widget" v-html="snippet"></div>
     </div>
@@ -17,6 +17,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.widget-container {
+  height: 582.55px;
+}
 .rendered-widget {
   height: 582.55px;
   background-color: white;

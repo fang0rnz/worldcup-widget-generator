@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "bulma": "^0.7.1",
+    "clipboard": "^2.0.1",
     "vue": "^2.5.16"
   },
   "devDependencies": {
@@ -22,6 +24,7 @@
     "node-sass": "^4.9.0",
     "prettier": "^1.13.4",
     "sass-loader": "^7.0.3",
+    "vue-gh-pages": "^1.16.0",
     "vue-template-compiler": "^2.5.16"
   },
   "lint-staged": {
@@ -53,5 +56,6 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "homepage": "git@github.com:fang0rnz/worldcup-widget-generator"
 }

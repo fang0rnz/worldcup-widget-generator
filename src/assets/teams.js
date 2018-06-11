@@ -1,5 +1,9 @@
 export default [
   {
+    team: 'Todos os times',
+    abbreviation: ''
+  },
+  {
     team: 'Brasil',
     abbreviation: 'BRA'
   },

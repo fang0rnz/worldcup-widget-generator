@@ -15,6 +15,7 @@
           <label class="onoffswitch-label" for="myonoffswitch"></label>
         </div>
       </div>
+      <p class="help-input-text">(apenas desmarque essa opção quando quiser exibir apenas um jogo)</p>
     </div>
     <div class="field">
       <label for="" class="label">Selecione uma seleção</label>
@@ -54,12 +55,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.help-input-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rosybrown;
+}
+
 .onoffswitch {
   position: relative;
   width: 55px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
 }
 .onoffswitch-checkbox {
   display: none;
